@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Balloon Keepy-Uppy Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: one readable column, a soft sunset band header like the game's evening room, plain policy text below. */
+:root {
+  --bg: #FBF8FD;
+  --surface: #FFFFFF;
+  --fg: #2A2340;
+  --muted: #5E5675;
+  --line: #E6E0EF;
+  --accent: #C2417B;
+  --band-a: #5B3F86;
+  --band-b: #F0687F;
+  --band-c: #FFBE73;
+  --display: "Fredoka", "Avenir Next Rounded", "Trebuchet MS", system-ui, sans-serif;
+  --body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17131F; --surface: #201A2B; --fg: #EEE8F6; --muted: #B3A9C6; --line: #352C45; --accent: #FF8FB8;
+    --band-a: #3A2A5C; --band-b: #A64466; --band-c: #B8774A; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17131F; --surface: #201A2B; --fg: #EEE8F6; --muted: #B3A9C6; --line: #352C45; --accent: #FF8FB8;
+  --band-a: #3A2A5C; --band-b: #A64466; --band-c: #B8774A; color-scheme: dark;
+}
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.65; }
+.hero {
+  margin-top: calc(-1 * env(safe-area-inset-top, 0px));
+  padding-top: calc(env(safe-area-inset-top, 0px) + 2.5rem);
+  padding-bottom: 2.25rem;
+  background: linear-gradient(180deg, var(--band-a) 0%, var(--band-b) 62%, var(--band-c) 100%);
+  color: #FFFFFF;
+}
+.wrap {
+  max-width: 44rem; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.eyebrow { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.9; margin: 0 0 0.4rem; }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.15; margin: 0; text-wrap: balance; }
+.meta { margin: 0.75rem 0 0; font-size: 0.95rem; opacity: 0.95; }
+main { padding-block: 2rem 3rem; }
+.summary {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+  padding: 1.1rem 1.25rem; margin-bottom: 2rem;
+}
+.summary h2 { margin-top: 0; }
+.summary ul { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.35rem; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.3rem; margin: 2rem 0 0.5rem; text-wrap: balance; }
+p, li { max-width: 65ch; }
+p { margin: 0 0 0.9rem; }
+ul { padding-left: 1.2rem; }
+li { margin-bottom: 0.35rem; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.small { color: var(--muted); font-size: 0.9rem; }
+footer { border-top: 1px solid var(--line); padding-block: 1.25rem 2rem; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">HyperXcite · Meta Quest</p>
+    <h1>Balloon Keepy-Uppy Privacy Policy</h1>
+    <p class="meta">Effective date: 23 November 2026</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="summary" aria-labelledby="short">
+    <h2 id="short">The short version</h2>
+    <ul>
+      <li>We don't collect, sell or share your personal information.</li>
+      <li>Your scores, coins, progress and settings are saved only on your headset.</li>
+      <li>No ads, no analytics trackers, no accounts and no real-money purchases in the game.</li>
+      <li>Meta checks that you own the game and records your achievements, under Meta's own privacy policy.</li>
+      <li>Hand tracking and Mixed Reality are processed on your headset; the game never records or sends them.</li>
+    </ul>
+  </section>
+
+  <h2>Who we are</h2>
+  <p>Balloon Keepy-Uppy is a virtual reality game for Meta Quest headsets, made by HyperXcite ("we", "us"). This policy explains what information the game uses and why.</p>
+
+  <h2>Information saved on your headset</h2>
+  <p>The game keeps a small save file on your headset so you can continue where you left off. It contains your best scores, coins, Party Mode stars, items unlocked in the in-game shop, achievement progress, Daily Challenge streak, and your settings (such as seated mode and volume). This file stays on your device. We never receive it.</p>
+
+  <h2>Information handled by Meta</h2>
+  <p>The game uses the Meta Platform SDK for two features:</p>
+  <ul>
+    <li><strong>Ownership check (entitlement):</strong> when the game starts, Meta confirms that your Meta account owns the game. This is required by Meta for apps on its store.</li>
+    <li><strong>Achievements:</strong> when you unlock an achievement, Meta records it on your Meta account so it can appear on your profile.</li>
+  </ul>
+  <p>For these features Meta uses your Meta account's user ID. This information is processed by Meta Platforms, Inc. under the <a href="https://www.meta.com/legal/privacy-policy/" rel="noopener">Meta Privacy Policy</a>. We don't receive or store your Meta user ID, name or other account details.</p>
+
+  <h2>Hand tracking, controllers and Mixed Reality</h2>
+  <p>To let you hit balloons, the game reads the position and movement of your hands or controllers in real time. This data is used only while you play, only on your headset, and is never stored or sent anywhere.</p>
+  <p>In Mixed Reality mode the headset shows your real room through passthrough. The passthrough image is produced by the Meta Quest system; the game does not access, record or transmit camera images of your surroundings.</p>
+
+  <h2>Technical data</h2>
+  <p>The game is built with the Unity engine. Unity Technologies may receive limited anonymous technical information, such as device model, operating system version and performance or crash statistics, under the <a href="https://unity.com/legal/privacy-policy" rel="noopener">Unity Privacy Policy</a>. This does not include your name or Meta account.</p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>No advertising and no advertising IDs.</li>
+    <li>No analytics or tracking tools of our own.</li>
+    <li>No chat, voice or messaging between players.</li>
+    <li>No in-game purchases with real money. Shop items are bought with coins earned by playing.</li>
+    <li>No selling or sharing of personal information.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Meta Quest accounts are for people aged 10 and over, with parental supervision options for younger users as set by Meta. The game does not knowingly collect personal information from anyone, including children.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Uninstalling the game deletes its save file from your headset.</li>
+    <li>You can manage your Meta account data, including achievements, in your Meta account settings.</li>
+    <li>You can turn hand tracking on or off in your headset's settings and play with controllers instead.</li>
+  </ul>
+
+  <h2>Future online features</h2>
+  <p>If a future update adds online features such as leaderboards, your Meta display name and scores would be shared with other players through Meta's services. We will update this policy before any such feature is released.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>We may update this policy when the game changes. The effective date at the top shows when it was last updated.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or the game can be sent to HyperXcite through the developer support contact listed on the Balloon Keepy-Uppy page in the Meta Horizon Store.</p>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 HyperXcite. Balloon Keepy-Uppy is available for Meta Quest 2, Quest 3 and Quest 3S.</div>
+</footer>
+</body>
+</html>
